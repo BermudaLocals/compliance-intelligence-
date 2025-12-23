@@ -1,12 +1,20 @@
-# Python
+﻿# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
 .venv/
+venv/
+
+# Environment / secrets
+.env
+*.env
+
+# Logs / runtime data
+*.log
+backend/data/
+data/
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Editor
-.vscode/
-.cursor/
